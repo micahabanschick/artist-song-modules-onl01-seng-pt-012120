@@ -1,12 +1,10 @@
 require 'pry'
 
 class Artist
-  
-  attr_accessor :name
-  attr_reader :songs
-  
   #extend Paramable
   include Paramable
+  attr_accessor :name
+  attr_reader :songs
 
   @@artists = []
 
